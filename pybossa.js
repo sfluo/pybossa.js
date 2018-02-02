@@ -88,6 +88,7 @@
         var taskrun = {
             'project_id': task.project_id,
             'task_id': task.id,
+            'earning' : task.price,
             'info': task.answer
         };
         taskrun = JSON.stringify(taskrun);
